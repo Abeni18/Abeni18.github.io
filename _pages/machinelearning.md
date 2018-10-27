@@ -2,10 +2,10 @@
 layout: archive
 permalink: /machine-learning/
 title: "Machine Learning Post by Abeni18"
-author_profile: true
+#author_profile: true
 header:
   images: "/images/deepmn.jpg"
-
+---
   {% include base_path %}
   {% include group-by-array collection=site.posts field="tags" %}
 
