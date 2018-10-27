@@ -29,7 +29,7 @@ words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "Abeni" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -47,7 +47,7 @@ staticman:
   path                   : # "/_data/comments/{options.slug}" (default)
   requiredFields         : # ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "aggirma@aggies.ncat.edu" # "md5"
   generatedFields:
     date:
       type               : # "date"
@@ -77,8 +77,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
+linkedin:
+  username               : "Abenezer Girma"
 facebook:
   username               :
   app_id                 :
@@ -105,7 +105,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Machine Learning Deep Learning Portfolio"
   location         : "North Carolina"
-  email            :
+  email            : "aggirma@aggies.ncat.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -125,6 +125,8 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin"
 
 # Site Footer
 footer:
@@ -147,6 +149,8 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin"
 
 
 # Reading Files
