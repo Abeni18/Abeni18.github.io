@@ -294,6 +294,6 @@ defaults:
   - scope:
     path: ""
     type: Pages
-    values:
-      layout: single
-      author_profile: true
+  values:
+    layout: single
+    author_profile: true
