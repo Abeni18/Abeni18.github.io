@@ -292,3 +292,12 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # pages
+
+- scope:
+    path: ""
+  types: pages
+ values:
+   layout: single
+   author_profile: ture
